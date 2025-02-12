@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1739290170.01067 "resume.tex" "resume.pdf" "resume" 1739290170.53083 0
+["pdflatex"] 1739332378.94978 "resume.tex" "resume.pdf" "resume" 1739332379.4325 0
   "/nix/store/2m0g1wi2wzz208x340h3ag65gpv8dac1-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5475591 f266180714aa61cf7527d9c2910cf7e3 ""
   "/nix/store/2m0g1wi2wzz208x340h3ag65gpv8dac1-texlive-2024-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3326158 145d018c41317191d05d96ef6ec3f246 ""
   "/nix/store/2m0g1wi2wzz208x340h3ag65gpv8dac1-texlive-2024-env/share/texmf-var/web2c/texmf.cnf" 1 43655 797cfba6f5dc800861bbf120f7582a5c ""
@@ -86,9 +86,9 @@
   "/nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/tex/latex/tools/tabularx.sty" 1 7243 e5dac1240636811edb77568b81818372 ""
   "/nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/tex/latex/tools/verbatim.sty" 1 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "/nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/tex/latex/url/url.sty" 1 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "resume.aux" 1739290170.4782 711 d776b8cadf0903cda9f4356d8076bd81 "pdflatex"
-  "resume.out" 1739290170.4782 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1739290169.45521 7405 08e82d9bb4e5d6dc53c15a9907882f0a ""
+  "resume.aux" 1739332379.37945 711 0849c3a03ec144c8e809ea7fb9f06bd7 "pdflatex"
+  "resume.out" 1739332379.37945 390 5e862aad8d93325f988ab87ba9195983 "pdflatex"
+  "resume.tex" 1739332378.65745 6424 f6dff2559d1f620e045b3aaa7d8802ec ""
   (generated)
   "resume.aux"
   "resume.log"

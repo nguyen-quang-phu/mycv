@@ -143,6 +143,7 @@ INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fon
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmmi10.tfm
@@ -154,10 +155,9 @@ INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fon
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/latex-fonts/lasy8.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/jknappen/ec/tcbx1095.tfm
-INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /nix/store/2m0g1wi2wzz208x340h3ag65gpv8dac1-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /nix/store/z5lwsf9fygsxnyjj1lss6mvdx9vhcnx5-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT resume.aux
