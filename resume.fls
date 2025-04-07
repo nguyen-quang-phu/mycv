@@ -157,9 +157,9 @@ INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fon
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/jknappen/ec/tcbx1095.tfm
+INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT resume.aux

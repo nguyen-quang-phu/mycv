@@ -68,12 +68,19 @@
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeSubheadingWithoutProject}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      \textbf{#1} & \textit{#2} \\
       \textbf{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2}
+    \end{tabular*}\vspace{-15pt}
 }
 
 \newcommand{\resumeSubheadingProject}[2]{
@@ -81,6 +88,15 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingProjectWithLink}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \href{#1}{\textbf{\underline{#2}:{#3}}} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeLink}[2]{
+  \href{#1}{\underline{#2}}
 }
 \newcommand{\resumeSubSubheading}[2]{
     \item
@@ -131,23 +147,23 @@
 
 \section*{Skills}
 \begin{tabular}{p{4cm} p{4cm} p{4cm} p{4cm} p{4cm} p{4cm}}
-	\textbullet{ Typescript} &
-  \textbullet{ Reactjs} &
-  \textbullet{ Nextjs} &
-  \textbullet{ Express} &
+	\textbullet{ Typescript}    &
+	\textbullet{ Reactjs}       &
+	\textbullet{ Nextjs}        &
+	\textbullet{ Express}       &
 	\textbullet{ Ruby on Rails} &
-  \\
-	\textbullet{ Docker} &
-	\textbullet{ AWS} &
-	\textbullet{ Postgres} &
-	\textbullet{ Mysql} &
-	\textbullet{ MongoDB} &
-  \\
-	\textbullet{ Unit test} &
+	\\
+	\textbullet{ Docker}        &
+	\textbullet{ AWS}           &
+	\textbullet{ Postgres}      &
+	\textbullet{ Mysql}         &
+	\textbullet{ MongoDB}       &
+	\\
+	\textbullet{ Unit test}     &
 	\textbullet{ System Design} &
-	\textbullet{ CI/CD} &
-	\textbullet{ Linux} &
-	\textbullet{ Vim} &
+	\textbullet{ CI/CD}         &
+	\textbullet{ Linux}         &
+	\textbullet{ Vim}           &
 \end{tabular}
 
 % \begin{itemize}[leftmargin=0.15in, label={}]
@@ -164,20 +180,22 @@
 
 \resumeSubheading
 {Golden Owl Consulting Ltd · Full-time}{May 2021 -- February 2025}
-{Clinger: Online dating platform}{December 2024 -- February 2025}
+\resumeSubheadingProjectWithLink
+{https://play.google.com/store/apps/details?id=com.goldenowl.dating\_app\&hl=vi}{Clinger}{ Online dating platform}{October 2024 -- December 2024}
 \resumeItemListStart
-\resumeItem{Build web application for SEO, seeding clinger app.}
+\resumeItem{Build \resumeLink{https://clinger.co/}{web application}  for SEO, seeding clinger app.}
 \resumeItem{Write api for new feature and maintain existing codebase.}
 \resumeItemListEnd
-{Tech stacks:}{ Nextjs, Nestjs, Postgres}
+{Tech stack:}{ Nextjs, Nestjs, Postgres}
 
-\resumeSubheadingProject
-{Merlin: Web application built for financial practitioners in Singapore }{October 2024 -- December 2024}
+\resumeSubheadingProjectWithLink
+{https://iammerlin.co/}{Merlin}
+{ Web application built for financial practitioners in Singapore }{October 2024 -- December 2024}
 \resumeItemListStart
-\resumeItem{Transfer data from another database to current database with specific user.}
+\resumeItem{Transfer data from another database to current database with specific user (from \resumeLink{https://iammerlin.co/}{Merlin} to \resumeLink{https://askmerlin.co/}{AskMerlin}).}
 \resumeItem{Calculate data to draw chart presents income, expense, balance, dreams of each member.}
 \resumeItemListEnd
-{Tech stacks:}{ Ruby on rails, Postgres}
+{Tech stack:}{ Ruby on rails, Postgres}
 
 \resumeSubheadingProject
 {Restorific: Web application built for restaurant owners}{July 2024 -- October 2024}
@@ -185,47 +203,51 @@
 \resumeItem{Working with Google to implement booking on Google Maps.}
 \resumeItem{Integrate Google map to show location of restaurant.}
 \resumeItemListEnd
-{Tech stacks:}{ Express, Reactjs, Mysql}
+{Tech stack:}{ Express, Reactjs, Mysql}
 
-\resumeSubheadingProject
-{Crewcall: App planning tool for seamless crew sourcing and event management}{April 2024 -- July 2024}
+\resumeSubheadingProjectWithLink
+{https://play.google.com/store/apps/details?id=com.app.crewcall\&hl=vi}{Crewcall}{ App planning for seamless crew sourcing and event management}{April 2024 -- July 2024}
 \resumeItemListStart
 \resumeItem{ Implement payment with stripe.}
 \resumeItem{ Maintain existing codebase, write api for new feature.}
 \resumeItemListEnd
-{Tech stacks:}{ Nestjs, Reactjs, Postgres}
+{Tech stack:}{ Nestjs, Reactjs, Postgres}
 
-\resumeSubheadingProject
-{GIGADMIN: leading Staffing Management Platform and service provider in UK}{April 2022 -- April 2024}
+\resumeSubheadingProjectWithLink
+{https://www.gigtogig.co.uk/}
+{GIGADMIN}
+{ Leading Staffing Management Platform and provider in UK}{April 2022 -- April 2024}
 \resumeItemListStart
-\resumeItem{ Rebuild admin page with new design and logic.}
+\resumeItem{ Rebuild \resumeLink{https://www.gigadmin.co.uk/login}{admin page} with new design and logic.}
 \resumeItem{ Optimize database query to improve performance.}
-\resumeItem{ Maintain new and old system implementation.}
+\resumeItem{ Maintain system: \resumeLink{https://www.gigseekers.co.uk/main/login/}{Gig seekers}, \resumeLink{https://www.gigprovider.co.uk/signin}{Gig provider}, \resumeLink{https://play.google.com/store/apps/details?id=com.gigtogig.marketplace}{Gig app}.  }
 \resumeItem{ Create CI/CD to deploy backend to AWS ECS and frontend to AWS S3.}
 \resumeItem{ Analyse equirements and provide technical solutions with customer.}
-\resumeItem{ Divide tasks, review code and provide feedback to team members.}
+\resumeItem{ Manage team 7 member, divide tasks, review code and provide feedback to team members.}
 \resumeItemListEnd
-{Tech stacks:}{ Ruby on rails, Reactjs, Mysql, React native}
+{Tech stack:}{ Ruby on rails, Reactjs, Mysql, React native}
 
-\resumeSubheadingProject
-{FeakAI: An app for health/fitness coach in your pocket}{January 2022 -- April 2022}
+\resumeSubheadingProjectWithLink
+{https://play.google.com/store/apps/details?id=ai.feak\&hl=en}
+{FeakAI}
+{ An app for health/fitness coach in your pocket}{January 2022 -- April 2022}
 \resumeItemListStart
 \resumeItem{ Update UI and integrate api with new design.}
 \resumeItem{ Update admin panel and old api.}
 \resumeItemListEnd
-{Tech stacks:}{ Ruby on rails, React native, Postgres}
+{Tech stack:}{ Ruby on rails, React native, Postgres}
 
 \resumeSubheadingProject
 {Vnnor: Web uses AI to predict sick-leave absence and budget in Norway}{September 2021 -- January 2022}
 \resumeItemListStart
-\resumeItem{ Build web application for SEO.}
+\resumeItem{ Build \resumeLink{https://www.synplan.ai/}{web application} for SEO.}
 \resumeItem{ Draw chart to present data of each user.}
 \resumeItem{ Write api to get data from another database and calculate data to draw chart.}
 \resumeItem{ Analyze excel file and write custom script to import data to database.}
 \resumeItem{ Write CI/CD after finishing train data model to deploy web.}
 \resumeItem{ Help client write code to preprocess data, optimize query get and transform data to prepare training.}
 \resumeItemListEnd
-{Tech stacks:}{ Express, Nextjs, React, Postgres}
+{Tech stack:}{ Express, Nextjs, React, Postgres}
 
 \resumeSubheadingProject
 {Ipoker: Private web play poker with various category rule}{July 2021 -- September 2021}
@@ -233,13 +255,8 @@
 \resumeItem{ Write UI and logic for poker game.}
 \resumeItem{ Add setting for each game in admin panel.}
 \resumeItemListEnd
-{Tech stacks:}{ Reactjs, Ruby on rails, Postgres}
+{Tech stack:}{ Reactjs, Ruby on rails, Postgres}
 
-\resumeSubheadingProject
-{Intern}{May 2021 -- July 2021}
-\resumeItemListStart
-\resumeItem{ Learn fullstack development with Nodejs and Reactjs.}
-\resumeItemListEnd
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
 %     {Software Engineer I}{Oct 2014 - Sep 2016}
@@ -250,37 +267,37 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-\resumeSubheading
+\resumeSubheadingWithoutProject
 {AIS Cloud · Part-time}{September 2023 - January 2024}
 {Frontend Engineer}{}
 \resumeItemListStart
 \resumeItem{Developed a web application view live, record from camera.}
 \resumeItemListEnd
-{Tech stacks:}{ Reactjs }
+{Tech stack:}{ Reactjs }
 
-\resumeSubheading
+\resumeSubheadingWithoutProject
 {Hubtech · Part-time}{April 2022 -- August 2022}
 {Fullstack Engineer}{}
 \resumeItemListStart
 \resumeItem{Developed a web application to manager for super admin about store, agricultural products.}
 \resumeItemListEnd
-{Tech stacks:}{ Nestjs, Reactjs, Postgres}
+{Tech stack:}{ Nestjs, Reactjs, Postgres}
 
-\resumeSubheading
-{DONGJIN VIETNAME · Part-time}{October 2021 -- March 2022}
+\resumeSubheadingWithoutProject
+{DONGJIN VIETNAM · Part-time}{October 2021 -- March 2022}
 {Frontend Engineer}{}
 \resumeItemListStart
 \resumeItem{ Maintain existing codebase, build UI and integrate api.}
 \resumeItemListEnd
-{Tech stacks:}{ Reactjs}
+{Tech stack:}{ Reactjs}
 
 \resumeSubHeadingListEnd
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
-\resumeSubheading
+\resumeSubheadingWithoutProject
 {VNUHCM- University of Science}{HCM, VN}
-{Bachelor's degree Computer Science}{Aug. 2016 -- Aug 2021}
+{Bachelor's degree Computer Science}{August 2016 - August 2021}
 \resumeSubHeadingListEnd
 
 
