@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1744004691.84866 "resume.tex" "resume.pdf" "resume" 1744004692.38191 0
+["pdflatex"] 1744006136.37312 "resume.tex" "resume.pdf" "resume" 1744006136.86845 0
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/jknappen/ec/tcbx1095.tfm" 1 1536 0adca69c597a47fe7664bf81057bb53b ""
@@ -88,9 +88,9 @@
   "/nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467241 0ef6f854c1759bb379dd55494b691161 ""
   "/nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353353 5b79247a015140b6bc76c40d68b18142 ""
   "/nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/web2c/texmf.cnf" 1 43655 c6d5b0645702d49622ef2d5aec063dd5 ""
-  "resume.aux" 1744004692.32796 493 9d3632576c7d7994bef88fb4b514034b "pdflatex"
-  "resume.out" 1744004692.32896 181 c558f42f2a6efce0e768a9d9e972ed65 "pdflatex"
-  "resume.tex" 1744004690.83798 10352 7a17ddf5d0bc7e7538263d4b4f20595b ""
+  "resume.aux" 1744006136.81474 493 9d3632576c7d7994bef88fb4b514034b "pdflatex"
+  "resume.out" 1744006136.81474 181 c558f42f2a6efce0e768a9d9e972ed65 "pdflatex"
+  "resume.tex" 1744006136.11163 10351 9528c2e32302a93205872601ec2e5cd5 ""
   (generated)
   "resume.aux"
   "resume.log"
