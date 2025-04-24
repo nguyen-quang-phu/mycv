@@ -1,0 +1,345 @@
+%-------------------------
+% Resume in Latex
+% Author :
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeInfo}[2]{
+  \vspace{-2pt}\item
+  \begin{tabular}{p{3cm} p{4cm} p{4cm} p{4cm} p{4cm} p{4cm}}
+    % \begin{tabular*}{0.3\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \text{#2} \\
+    \end{tabular}
+}
+\newcommand{\resumeSubheadingWithoutProject}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\Large#1} & \textit{#2} \\
+      \textbf{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\Large#1} & \textit{#2}
+    \end{tabular*}\vspace{-15pt}
+}
+
+\newcommand{\resumeSubheadingProject}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingProjectWithLink}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \href{#1}{\textbf{\underline{#2}:{#3}}} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeLink}[2]{
+  \href{#1}{\underline{#2}}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{myblue}{RGB}{0, 70, 127}
+\titleformat{\section}
+  {\large\bfseries\color{myblue}} % formatting
+  {\thesection}                   % label
+  {1em}                           % space between label and title
+  {\uppercase}                   % code before title
+  [\titlerule]                   % after title (e.g., underline)
+\titleformat{\subsection}[runin]{\bfseries}{}{0pt}{}[ --- ]
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{flushleft}
+	\textbf{\Huge \scshape \textcolor{myblue}{NGUYEN QUANG PHU}} \\ \vspace{8pt}
+  \resumeInfo{Email:}{nqphu1998@gmail.com}
+  \resumeInfo{Phone:}{0559725898}
+  \resumeInfo{Linkedin:}{linkedin.com/in/nqphu1998}
+	% \small 055-972-5898 $|$ \href{mailto:nqphu1998@gmail.com}{\underline{nqphu1998@gmail.com}} $|$
+	% \href{https://linkedin.com/in/nqphu1998}{\underline{linkedin.com/in/nqphu1998}} $|$
+	% \href{https://github.com/nguyen-quang-phu}{\underline{github.com/nguyen-quang-phu}}
+\end{flushleft}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+%\section*{Technical Skills}
+
+% \section*{Skills}
+% \begin{tabular}{p{4cm} p{4cm} p{4cm} p{4cm} p{4cm} p{4cm}}
+% 	\textbullet{ Typescript}    &
+% 	\textbullet{ Reactjs}       &
+% 	\textbullet{ Nextjs}        &
+% 	\textbullet{ Express}       &
+% 	\textbullet{ Ruby on Rails} &
+% 	\\
+% 	\textbullet{ Docker}        &
+% 	\textbullet{ AWS}           &
+% 	\textbullet{ Postgres}      &
+% 	\textbullet{ Mysql}         &
+% 	\textbullet{ MongoDB}       &
+% 	\\
+% 	\textbullet{ Unit test}     &
+% 	\textbullet{ System Design} &
+% 	\textbullet{ CI/CD}         &
+% 	\textbullet{ Linux}         &
+% 	\textbullet{ Vim}           &
+% \end{tabular}
+
+% \begin{itemize}[leftmargin=0.15in, label={}]
+% 	\small{\item{
+% 	      \textbf{Languages}{: JavaScript, TypeScript, Ruby , SQL (Mysql, Postgres), HTML, CSS/SCSS, C/C++} \\
+% 	      \textbf{Frameworks/Libraries}{: Reactjs, Nextjs, Nest, Antdesign, MUI, Redux, Ruby on Rails} \\
+% 	      \textbf{Developer Tools}{: Git, Docker, AWS, Vim, Linux} \\
+% 	      }}
+% \end{itemize}
+\section* {Summary}
+\begin{flushleft}
+	\leftskip 10pt
+	Full-stack Developer with 3,5+ years of professional experience building scalable web applications using modern technologies like React, Ruby on Rails, NestJS, and NextJS. Strong understanding of system design, CI/CD pipelines, cloud infrastructure (AWS).
+Seeking opportunities to contribute to innovative and impactful products while continuing to grow my skills in system architecture, cloud services (AWS, Azure), and team collaboration.
+
+\end{flushleft}
+%-----------EXPERIENCE-----------
+\section*{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Golden Owl Consulting Ltd · Full-time}{May 2021 -- Feb 2025}
+\resumeSubheadingProject
+{ Clinger: Online dating platform (clinger.co)}{Oct 2024 -- Dec 2024}
+\resumeItemListStart
+\resumeItem{Build web application for SEO, seeding clinger app.}
+\resumeItem{Write api for new feature and maintain existing codebase.}
+\resumeItem{Write CI/CD to deploy to AWS S3.}
+\resumeItemListEnd
+{Tech stack:}{ Nextjs, Nestjs, Postgres}
+
+\resumeSubheadingProject
+% {https://iammerlin.co/}{Merlin}
+{ Merlin: Web financial practitioners in Singapore (iammerlin.co) }{Oct 2024 -- Dec 2024}
+\resumeItemListStart
+\resumeItem{Transfer data from another database to current database with specific user.}
+\resumeItem{Calculate data to draw chart presents income, expense, balance, dreams of each member.}
+\resumeItemListEnd
+{Tech stack:}{ Ruby on rails, Postgres}
+
+\resumeSubheadingProject
+{Restorific: Web application built for restaurant owners}{Jul 2024 -- Oct 2024}
+\resumeItemListStart
+\resumeItem{Working with Google to implement booking on Google Maps.}
+\resumeItem{Integrate Google map to show location of restaurant.}
+\resumeItemListEnd
+{Tech stack:}{ Express, Reactjs, Mysql}
+
+\resumeSubheadingProject
+{Crewcall: App planning for seamless crew sourcing and event management}{Apr 2024 -- Jul 2024}
+\resumeItemListStart
+\resumeItem{ Implement payment with stripe.}
+\resumeItem{ Maintain existing codebase, write api for new feature.}
+\resumeItem{ Write CI/CD to deploy backend to AWS ECS and frontend to AWS S3.}
+\resumeItemListEnd
+{Tech stack:}{ Nestjs, Reactjs, Postgres}
+
+\resumeSubheadingProject
+{GIGADMIN: Staffing Management Platform and provider in UK (gigtogig.co.uk)}{Apr 2022 -- Apr 2024}
+\resumeItemListStart
+\resumeItem{ Rebuild\resumeLink{https://www.gigadmin.co.uk/login}{admin page}with new design and logic.}
+\resumeItem{ Optimize database query to improve performance.}
+\resumeItem{ Maintain system:\resumeLink{https://www.gigseekers.co.uk/main/login/}{Gig seekers},\resumeLink{https://www.gigprovider.co.uk/signin}{Gig provider},\resumeLink{https://play.google.com/store/apps/details?id=com.gigtogig.marketplace}{Gig app}.  }
+\resumeItem{ Create CI/CD to deploy backend to AWS ECS and frontend to AWS S3.}
+\resumeItem{ Maintain and update EB, RDS, S3, CloudFront, Route53, CloudWatch.}
+\resumeItem{ Analyse equirements and provide technical solutions with customer.}
+\resumeItem{ Manage team 7 member, divide tasks, review code and provide feedback to team members.}
+\resumeItemListEnd
+{Tech stack:}{ Ruby on rails, Reactjs, Mysql, React native}
+
+\resumeSubheadingProject
+{FeakAI: An app for health/fitness coach in your pocket}{Jan 2022 -- Apr 2022}
+\resumeItemListStart
+\resumeItem{ Update UI and integrate api with new design.}
+\resumeItem{ Update admin panel and old api.}
+\resumeItemListEnd
+{Tech stack:}{ Ruby on rails, React native, Postgres}
+
+\resumeSubheadingProject
+{Vnnor: Web uses AI to predict sick-leave absence and budget (synplan.ai)}{Sep 2021 -- Jan 2022}
+\resumeItemListStart
+\resumeItem{ Build web application for SEO.}
+\resumeItem{ Draw chart to present data of each user.}
+\resumeItem{ Write api to get data from another database and calculate data to draw chart.}
+\resumeItem{ Analyze excel file and write custom script to import data to database.}
+\resumeItem{ Write CI/CD after finishing train data model to deploy web.}
+\resumeItem{ Maintain and update Azure Web App, Azure SQL Database, Azure Blob Storage.}
+\resumeItem{ Help client write code to preprocess data, optimize query get and transform data to prepare training.}
+\resumeItemListEnd
+{Tech stack:}{ Express, Nextjs, React, Postgres}
+
+\resumeSubheadingProject
+{Ipoker: Private web play poker with various category rule}{Jul 2021 -- Sep 2021}
+\resumeItemListStart
+\resumeItem{ Write UI and logic for poker game.}
+\resumeItem{ Add setting for each game in admin panel.}
+\resumeItemListEnd
+{Tech stack:}{ Reactjs, Ruby on rails, Postgres}
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheadingWithoutProject
+{AIS Cloud · Part-time}{Sep 2023 - Jan 2024}
+{Frontend Engineer}{}
+\resumeItemListStart
+\resumeItem{Developed a web application view live, record from camera.}
+\resumeItemListEnd
+{Tech stack:}{ Reactjs }
+
+\resumeSubheadingWithoutProject
+{Hubtech · Part-time}{Apr 2022 -- Aug 2022}
+{Fullstack Engineer}{}
+\resumeItemListStart
+\resumeItem{Developed a web application to manager for super admin about store, agricultural products.}
+\resumeItemListEnd
+{Tech stack:}{ Nestjs, Reactjs, Postgres}
+
+\resumeSubheadingWithoutProject
+{DONGJIN VIETNAM · Part-time}{Oct 2021 -- Mar 2022}
+{Frontend Engineer}{}
+\resumeItemListStart
+\resumeItem{ Maintain existing code base, build UI and integrate factory management api.}
+\resumeItemListEnd
+{Tech stack:}{ Reactjs}
+
+\resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section*{Education}
+\resumeSubHeadingListStart
+\resumeSubheadingWithoutProject
+{VNUHCM- University of Science}{HCM, VN}
+{Bachelor's degree Computer Science}{Aug 2016 - Aug 2021}
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+% {\textbf{Merlin} $|$ \emph{Ruby on Rails, PostgreSQL}}{October 2024 -- January 2025}
+% \resumeItemListStart
+% \resumeItem{Developed a full-stack web application using with Rails}
+% \resumeItem{Draw chart presents income, expense, balance of each member}
+% \resumeItem{Migrate data from another database to current database}
+% \resumeItemListEnd
+% \resumeProjectHeading
+% {\textbf{GIG ADMIN} $|$ \emph{Ruby on Rails, Mysql, React}}{April 2022 -- October 2024}
+% \resumeItemListStart
+% \resumeItem{Developed a full-stack web application using with Rails serving a REST API with React as the frontend}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
