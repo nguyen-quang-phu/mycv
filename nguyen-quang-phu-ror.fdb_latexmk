@@ -1,8 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1746709632.35629 "nguyen-quang-phu.tex" "nguyen-quang-phu.pdf" "nguyen-quang-phu" 1746709632.89995 2
-  "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1 2900 1537cc8184ad1792082cd229ecc269f4 ""
+["pdflatex"] 1746710615.66611 "nguyen-quang-phu-ror.tex" "nguyen-quang-phu-ror.pdf" "nguyen-quang-phu-ror" 1746710616.21493 2
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/jknappen/ec/tcbx1440.tfm" 1 1536 31d7b1d6f1ef88de2aa925487cab16c7 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmbx10.tfm" 1 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmbx12.tfm" 1 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmmi10.tfm" 1 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -26,7 +24,6 @@
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1 35752 024fb6c41858982481f6968b5fc26508 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1 37944 359e864bd06cde3b1cf57bb20757fb06 ""
-  "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/type1/public/cm-super/sfbx1440.pfb" 1 135942 859a90cad7494a1e79c94baf546d7de5 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/context/base/mkii/supp-pdf.mkii" 1 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/generic/atbegshi/atbegshi.sty" 1 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/generic/babel-english/english.ldf" 1 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -84,12 +81,12 @@
   "/nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467241 0ef6f854c1759bb379dd55494b691161 ""
   "/nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353353 5b79247a015140b6bc76c40d68b18142 ""
   "/nix/store/n59q01rpyq7q0vj5i1sy0dklm4cfyr5m-texlive-2024-env/share/texmf-var/web2c/texmf.cnf" 1 43655 c6d5b0645702d49622ef2d5aec063dd5 ""
-  "nguyen-quang-phu.aux" 1746709632.84889 280 66365491869cccee3e3129717de31637 "pdflatex"
-  "nguyen-quang-phu.out" 1746709632.72889 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "nguyen-quang-phu.tex" 1746681478.8656 12678 e03ae0dad48868cf602f6addae8db0e6 ""
+  "nguyen-quang-phu-ror.aux" 1746710616.16611 280 66365491869cccee3e3129717de31637 "pdflatex"
+  "nguyen-quang-phu-ror.out" 1746710616.05311 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "nguyen-quang-phu-ror.tex" 1746710614.74812 11445 300235cf6c2844331df274bbba9188f2 ""
   (generated)
-  "nguyen-quang-phu.aux"
-  "nguyen-quang-phu.log"
-  "nguyen-quang-phu.out"
-  "nguyen-quang-phu.pdf"
+  "nguyen-quang-phu-ror.aux"
+  "nguyen-quang-phu-ror.log"
+  "nguyen-quang-phu-ror.out"
+  "nguyen-quang-phu-ror.pdf"
   (rewritten before read)
